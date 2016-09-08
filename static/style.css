@@ -193,8 +193,6 @@ p {
 	text-align: center;
 	align-content: center;
 	color: black;
-	-webkit-transition-duration: 0,4s;
-	transition-duration: 0,4s;
 }
 
 .btn.btn-primary.btn-lg.start:hover {
@@ -212,8 +210,6 @@ p {
 	font-family: Quicksand, sans serif;
 	text-align: center;
 	color: black;
-	-webkit-transition-duration: 0,4s;
-	transition-duration: 0,4s;
 }
 
 .btn.btn-primary.btn-lg.quiz:hover {
@@ -230,8 +226,6 @@ p {
 	font-family: Quicksand, sans serif;
 	text-align: left;
 	color: black;
-	-webkit-transition-duration: 0,4s;
-	transition-duration: 0,4s;
 	position: relative;
 }
 .btn.btn-primary.btn-lg.question.one:hover {
@@ -248,11 +242,26 @@ p {
 	font-family: Quicksand, sans serif;
 	text-align: left;
 	color: black;
-	-webkit-transition-duration: 0,4s;
-	transition-duration: 0,4s;
 	position: relative;
 }
 .btn.btn-primary.btn-lg.question.two:hover {
+	background-color: #3DD1B6;
+	color: white;
+}
+
+.btn.btn-primary.btn-lg.results {
+	background-color: #e3e3e3;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 2em;
+	width: 60%;
+	font-family: Quicksand, sans serif;
+	color: black;
+	font-size: 95%;
+	text-align: center;
+}
+
+.btn.btn-primary.btn-lg.results:hover {
 	background-color: #3DD1B6;
 	color: white;
 }
@@ -293,3 +302,4 @@ p {
 .link:hover {
 	color: #e30b86;
 }
+
