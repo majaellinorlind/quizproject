@@ -11,9 +11,7 @@
 		<script src="https://use.fontawesome.com/cb5fb0d28c.js"></script>
 	</head>
 	<body>
-	{% for quiz in quizzes %}
-	<p>{{ quiz.name }}</p>
-	{% endfor %}
+	
 	<div class="container start">
 		<h1 class="h start">Welcome to my</h1>
 		<h1 class="h start blue">one woman show!</h1>
@@ -22,7 +20,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6" align="center">
-						<button type="button" class="btn btn-primary btn-lg start">Let's see if I need a Maja</button>
+						{% for quiz in quizzes %}
+						<button type="button" class="btn btn-primary btn-lg start"> {{ quiz.name }}</button>
+						{% endfor %}
 					</div>
 					<div class="col-md-6" align="center">
 						<button type="button" class="btn btn-primary btn-lg start">Tell me more about this Maja</button>
