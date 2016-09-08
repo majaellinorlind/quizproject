@@ -38,6 +38,7 @@ h3 {
 
 img {
  	width: 430px;
+ 	position: relative;
  }
 
 p {
@@ -123,7 +124,7 @@ p {
 .h.question {
 	font-size: 50px;
 	color: black;
-	margin: 40px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 }
 
 .h.result {

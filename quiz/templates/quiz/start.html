@@ -20,7 +20,7 @@
 				<div class="row start">
 					<div class="col-md-12 start">
 						{% for quiz in quizzes %}
-						<button type="button" class="btn btn-primary btn-lg start"> <a href='{% url "quiz_page" quiz.quiz_number %}'>{{ quiz.name }}</a></button>
+						<a href='{% url "quiz_page" quiz.quiz_number %}' class="btn btn-primary btn-lg start">{{ quiz.name }}</a>
 						{% endfor %}
 					</div>
 				</div>

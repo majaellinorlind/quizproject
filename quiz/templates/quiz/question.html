@@ -21,10 +21,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<button type="button" class="btn btn-primary btn-lg question one"><a href='{% url "results_page" quiz_number %}'>{{ answer1 }}</a></button>
+						<a href='{% url "results_page" quiz_number %}' class="btn btn-primary btn-lg question one">{{ answer1 }}</a>
 					</div>
 					<div class="col-md-12">
-						<button type="button" class="btn btn-primary btn-lg question two">{{ answer2 }}</button>
+						<a href='{% url "results_page" quiz_number %}' class="btn btn-primary btn-lg question two" >{{ answer2 }}</a>
 					</div>
 				</div>
 			</div>
