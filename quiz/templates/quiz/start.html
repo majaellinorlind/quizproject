@@ -11,6 +11,9 @@
 		<script src="https://use.fontawesome.com/cb5fb0d28c.js"></script>
 	</head>
 	<body>
+	{% for quiz in quizzes %}
+	<p>{{ quiz.name }}</p>
+	{% endfor %}
 	<div class="container start">
 		<h1 class="h start">Welcome to my</h1>
 		<h1 class="h start blue">one woman show!</h1>
