@@ -17,25 +17,20 @@
 		<h1 class="h start blue">one woman show!</h1>
 		<p class="p start">It's not easy when it's hard. Maybe you are in need of a Maja?</p>
 
-			<div class="container">
-				<div class="row">
-					{% for quiz in quizzes %}
-					<div class="col-md-6" align="center">
-						
+				<div class="row start">
+					<div class="col-md-12 start">
+						{% for quiz in quizzes %}
 						<button type="button" class="btn btn-primary btn-lg start"> <a href='{% url "quiz_page" quiz.quiz_number %}'>{{ quiz.name }}</a></button>
-						
-					</div>
-					{% endfor %}
-					<div class="col-md-6" align="center">
-						<button type="button" class="btn btn-primary btn-lg start">Tell me more about this Maja</button>
+						{% endfor %}
 					</div>
 				</div>
-			</div>
-			<p align="center">Share!</p> 
+
+			<p>Share!</p> 
 				<a href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>" target="_blank" class="share-btn twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=<URL>" target="_blank" class="share-btn facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
 				<a href="http://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>" target="_blank" class="share-btn linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a>
 				<a href="mailto:?subject=<SUBJECT&body=<BODY>" target="_blank" class="share-btn email"><i class="fa fa-envelope-square fa-2x"></i></a>
+
 		<script src="js/bootstrap.min.js"></script>
 	</div>
 	</body>
