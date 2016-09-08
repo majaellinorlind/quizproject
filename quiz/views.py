@@ -3,18 +3,14 @@ from django.shortcuts import render
 quizzes = [
 	{
 		"quiz_number": 1,
-   		"name": "Klassiska böcker",
-	   	"description": "Hur bra kan du dina klassiker?"
+   		"name": "Big Fat Quiz of Maja",
+	   	"description": "Take me to the quiz!"
 	},
 	{
 		"quiz_number": 2,
    	   	"name": "Största 1slagen",
 	   	"description": "Kan du dina lag?"
 	},
-	{
-		"quiz_number": 3,
-   	    	"name": "Världens mest kända hackare",
-	    	"description": "Hackerhistoria är viktigt, kan du den?"	},
 ]
 
 def start(request):
