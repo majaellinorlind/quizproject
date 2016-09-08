@@ -8,8 +8,8 @@ quizzes = [
 	},
 	{
 		"quiz_number": 2,
-   	   	"name": "Största 1slagen",
-	   	"description": "Kan du dina lag?"
+   	   	"name": "How much do you know about Majas?",
+	   	"description": "Take me to the quiz!"
 	},
 ]
 
