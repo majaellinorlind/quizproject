@@ -1,4 +1,12 @@
 
+.html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+
+}
+
+
 .border {
 	border: 20px solid;
 	-moz-border-image: -moz-linear-gradient(top, #E30B86 0%, #FF4D00 100%);
@@ -14,10 +22,12 @@ body {
 	align-content: center;
 	align-items: center;
 	text-align: center;
-	width: 100%;
+ 	margin: 0px;
 	height: 100%;
+	width: 100%;
 	background: #E30B86;
 	background: linear-gradient(#E30B86, #FF4D00);
+
 }
 
 h1 {
@@ -72,6 +82,7 @@ p {
 	background: none;
 	width: 100%;
 	height: 100%;
+
 }
 
 .col-md-12.quiz {
