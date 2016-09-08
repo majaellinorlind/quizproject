@@ -18,7 +18,7 @@
 		<p class="p start">It's not easy when it's hard. Maybe you are in need of a Maja?</p>
 
 				<div class="row start">
-					<div class="col-md-12 start">
+					<div class="col-md-6 start">
 						{% for quiz in quizzes %}
 						<a href='{% url "quiz_page" quiz.quiz_number %}' class="btn btn-primary btn-lg start">{{ quiz.name }}</a>
 						{% endfor %}

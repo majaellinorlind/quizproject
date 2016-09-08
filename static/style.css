@@ -54,7 +54,7 @@ p {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	position: fixed;
+	position: relative;
 	background: #E30B86;
 	background: linear-gradient(#E30B86, #FF4D00);
 }
@@ -63,7 +63,7 @@ p {
 	align-content: center;
 }
 
-.col-md-12.start {
+.col-md-6.start {
 	display: inline;
 }
 
@@ -75,6 +75,14 @@ p {
 	position: fixed;
 	background: #E30B86;
 	background: linear-gradient(#E30B86, #FF4D00);
+}
+
+.col-md-12.quiz {
+	display: inline;
+}
+
+.col-md-12.question {
+	display: inline;
 }
 
 .container.result {
@@ -192,7 +200,7 @@ p {
 	border: none;
 	border-radius: 0px;
 	width: 450px;
-	margin: 8px 0px 40px 0px;
+	margin: 8px 10px 40px 10px;
 	font-family: Quicksand, sans serif;
 	text-align: center;
 	color: black;
