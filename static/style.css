@@ -187,6 +187,43 @@ p {
 	margin: 100px 150px 100px 150px;
 }
 
+.btn.btn-primary.btn-lg.start {
+	background-color: #e3e3e3;
+	border: none;
+	border-radius: 0px;
+	width: 450px;
+	margin: 8px 0px 40px 0px;
+	font-family: Quicksand, sans serif;
+	text-align: center;
+	color: black;
+	-webkit-transition-duration: 0,4s;
+	transition-duration: 0,4s;
+}
+
+.btn.btn-primary.btn-lg.start:hover {
+	background-color: #3DD1B6;
+	color: white;
+}
+
+
+.btn.btn-primary.btn-lg.quiz {
+	background-color: #e3e3e3;
+	border: none;
+	border-radius: 0px;
+	width: 450px;
+	margin: 8px 0px 40px 0px;
+	font-family: Quicksand, sans serif;
+	text-align: center;
+	color: black;
+	-webkit-transition-duration: 0,4s;
+	transition-duration: 0,4s;
+}
+
+.btn.btn-primary.btn-lg.quiz:hover {
+	background-color: #3DD1B6;
+	color: white;
+}
+
 .btn.btn-primary.btn-lg.question.one {
 	background-color: #e3e3e3;
 	border: none;
@@ -219,42 +256,6 @@ p {
 	position: relative;
 }
 .btn.btn-primary.btn-lg.question.two:hover {
-	background-color: #3DD1B6;
-	color: white;
-}
-
-.btn.btn-primary.btn-lg.quiz {
-	background-color: #e3e3e3;
-	border: none;
-	border-radius: 0px;
-	width: 450px;
-	margin: 8px 0px 40px 0px;
-	font-family: Quicksand, sans serif;
-	text-align: center;
-	color: black;
-	-webkit-transition-duration: 0,4s;
-	transition-duration: 0,4s;
-}
-
-.btn.btn-primary.btn-lg.quiz:hover {
-	background-color: #3DD1B6;
-	color: white;
-}
-
-.btn.btn-primary.btn-lg.start {
-	background-color: #e3e3e3;
-	border: none;
-	border-radius: 0px;
-	width: 450px;
-	margin: 8px 0px 40px 0px;
-	font-family: Quicksand, sans serif;
-	text-align: center;
-	color: black;
-	-webkit-transition-duration: 0,4s;
-	transition-duration: 0,4s;
-}
-
-.btn.btn-primary.btn-lg.start:hover {
 	background-color: #3DD1B6;
 	color: white;
 }
