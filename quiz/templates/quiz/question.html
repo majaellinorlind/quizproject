@@ -11,7 +11,7 @@
 	</head>
 	<div class="border">
 	<body>
-		<h1>Big Fat Quiz of Maja</h1>
+		<h1 class="h question">Big Fat Quiz of Maja</h1>
 		<p class="p question">Are you in desperate need of a Maja? Answer these 14 questions and find out!</p>
 
 		<h2 class="h t quiz">{{ question_number }}. {{ question }}</h2>
@@ -21,14 +21,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<button type="button" class="btn btn-primary btn-lg question"><a href='{% url "results_page" quiz_number %}'>{{ answer1 }}</a></button>
+						<button type="button" class="btn btn-primary btn-lg question one"><a href='{% url "results_page" quiz_number %}'>{{ answer1 }}</a></button>
 					</div>
 					<div class="col-md-12">
-						<button type="button" class="btn btn-primary btn-lg question">{{ answer2 }}</button>
+						<button type="button" class="btn btn-primary btn-lg question two">{{ answer2 }}</button>
 					</div>
 				</div>
 			</div>
-	</div>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
+	</div>
 </html>
