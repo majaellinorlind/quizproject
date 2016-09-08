@@ -38,7 +38,7 @@ def question(request, quiz_number, question_number):
 
 def results(request, quiz_number):
 	context = {
-	    "correct": 8,
+	    "correct": 1,
 	    "total": 15,
 		"quiz_number": quiz_number,
 	}
