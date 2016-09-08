@@ -4,12 +4,12 @@ quizzes = [
 	{
 		"quiz_number": 1,
    		"name": "Big Fat Quiz of Maja",
-	   	"description": "Take me to the quiz!"
+	   	"description": "Are you in desperate need of a Maja? Answer these 14 questions and find out!"
 	},
 	{
 		"quiz_number": 2,
    	   	"name": "How much do you know about Majas?",
-	   	"description": "Take me to the quiz!"
+	   	"description": "Majas are a rare species. Test your knowledge of famous Majas!"
 	}
 ]
 
