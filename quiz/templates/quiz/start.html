@@ -18,13 +18,12 @@
 		<p class="p start">It's not easy when it's hard. Maybe you are in need of a Maja?</p>
 
 				<div class="row start">
-					<div class="col-md-6 start">
+					<div class="col-md-12 start">
 						{% for quiz in quizzes %}
 						<a href='{% url "quiz_page" quiz.quiz_number %}' class="btn btn-primary btn-lg start">{{ quiz.name }}</a>
 						{% endfor %}
 					</div>
 				</div>
-
 			<p>Share!</p> 
 				<a href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>" target="_blank" class="share-btn twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=<URL>" target="_blank" class="share-btn facebook"><i class="fa fa-facebook-square fa-2x"></i></a>

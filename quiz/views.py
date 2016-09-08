@@ -10,7 +10,7 @@ quizzes = [
 		"quiz_number": 2,
    	   	"name": "How much do you know about Majas?",
 	   	"description": "Take me to the quiz!"
-	},
+	}
 ]
 
 def start(request):

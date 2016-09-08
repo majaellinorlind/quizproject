@@ -14,7 +14,6 @@ body {
 	align-content: center;
 	align-items: center;
 	text-align: center;
-	position: relative;
 }
 
 h1 {
@@ -60,11 +59,11 @@ p {
 }
 
 .row.start {
-	align-content: center;
+	background: none;
 }
 
-.col-md-6.start {
-	display: inline;
+.col-md-12.start {
+	background: none;
 }
 
 .container.quiz {
@@ -203,6 +202,7 @@ p {
 	margin: 8px 10px 40px 10px;
 	font-family: Quicksand, sans serif;
 	text-align: center;
+	align-content: center;
 	color: black;
 	-webkit-transition-duration: 0,4s;
 	transition-duration: 0,4s;
