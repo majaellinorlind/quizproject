@@ -15,12 +15,12 @@
 	
 	<div class="container quiz">
 		<h1 class="h quiz">{{ quiz.name }}</h1>
-		<p class="p quiz">{{ quiz.description }}</p>
 
+				
 				<div class="col-md-12">
-					<button type="button" class="btn btn-primary btn-lg quiz"><a href='{% url "question_page" quiz_number 1 %}'>Take me to the quiz!</a></button>
+					<button type="button" class="btn btn-primary btn-lg quiz"><a href='{% url "question_page" quiz_number 1 %}' >{{ quiz.description }}</a></button>
 				</div>
-
+			
 		<p align="center">Share!</p> 
 				<a href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>" target="_blank" class="share-btn twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=<URL>" target="_blank" class="share-btn facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
