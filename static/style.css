@@ -14,6 +14,8 @@ body {
 	align-content: center;
 	align-items: center;
 	text-align: center;
+	width: 100%;
+	height: 100%;
 }
 
 h1 {
@@ -53,7 +55,6 @@ p {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	position: relative;
 	background: #E30B86;
 	background: linear-gradient(#E30B86, #FF4D00);
 }
@@ -103,7 +104,7 @@ p {
 .h.start.blue {
 	margin: 0px;
 	animation-name: flash;
-	animation-duration: 0.3s;
+	animation-duration: 0.5s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
@@ -271,7 +272,9 @@ p {
 .share-btn {
     display: inline-block;
     color: white;
-    margin: 0.1em 0.4em 1em 0.4em;
+    margin-top: 0.1em;
+    margin-right: 0.4em;
+    margin-left: 0.4em;
     box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
     width: 2em;
     align-content: center;
