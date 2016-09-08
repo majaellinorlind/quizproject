@@ -16,6 +16,8 @@ body {
 	text-align: center;
 	width: 100%;
 	height: 100%;
+	background: #E30B86;
+	background: linear-gradient(#E30B86, #FF4D00);
 }
 
 h1 {
@@ -55,8 +57,6 @@ p {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background: #E30B86;
-	background: linear-gradient(#E30B86, #FF4D00);
 }
 
 .row.start {
@@ -68,13 +68,7 @@ p {
 }
 
 .container.quiz {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	background: #E30B86;
-	background: linear-gradient(#E30B86, #FF4D00);
+
 }
 
 .col-md-12.quiz {
@@ -86,13 +80,14 @@ p {
 }
 
 .container.result {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	background: #E30B86;
-	background: linear-gradient(#E30B86, #FF4D00);
+
+}
+
+.result.box {
+	background-color: white;
+	align-content: center;
+	box-sizing: content-box;
+	margin: 5% 5% 5% 5%;
 }
 
 .h.start {
@@ -136,7 +131,7 @@ p {
 }
 
 .h.result {
-	padding: 40px 0px 0px 0px;
+	padding: 4% 6% 5% 6%;
 }
 
 .p.start {
@@ -167,6 +162,7 @@ p {
 	font-weight: bold;
 	color: black;
 	font-size: 35px;
+	margin: 0em 1em 1em 1em;
 }
 
 .b.result {
@@ -175,9 +171,7 @@ p {
 	font-weight: bold;
 	text-align: center;
 	font-size: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-bottom: 1em;
+	margin: 0em 5em 1em 5em;
 }
 
 .b.result.body {
@@ -185,14 +179,8 @@ p {
 	font-size: 18px;
 	text-align: left;
 	color: black;
-	margin: 0px 0px 10px 50px;
+	margin: 0em 2.5em 1em 2.5em;
 	padding: 0px 0px 15px 0px;
-}
-
-.result.box {
-	background-color: white;
-	align-content: center;
-	margin: 100px 150px 100px 150px;
 }
 
 .btn.btn-primary.btn-lg.start {
