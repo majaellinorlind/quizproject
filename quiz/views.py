@@ -39,7 +39,7 @@ def question(request, quiz_number, question_number):
 def results(request, quiz_number):
 	context = {
 	    "correct": 8,
-	    "total": 15;
+	    "total": 15,
 		"quiz_number": quiz_number,
 	}
 	return render(request, "quiz/results.html", context)
