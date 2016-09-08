@@ -18,7 +18,7 @@
 		<p class="p quiz">{{ quiz.description }}</p>
 
 				<div class="col-md-12">
-					<button type="button" class="btn btn-primary btn-lg quiz">Take me to the quiz!</button>
+					<button type="button" class="btn btn-primary btn-lg quiz"><a href='{% url "question_page" quiz_number 1 %}'>Take me to the quiz!</a></button>
 				</div>
 
 		<p align="center">Share!</p> 
