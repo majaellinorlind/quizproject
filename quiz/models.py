@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 class Quiz(models.Model):
 	quiz_number = models.PositiveIntegerField()
 	name = models.CharField(max_length=100)
