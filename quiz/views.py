@@ -1,17 +1,6 @@
 from django.shortcuts import render
 
-quizzes = [
-	{
-		"quiz_number": 1,
-   		"name": "Big Fat Quiz of Maja",
-	   	"description": "Are you in desperate need of a Maja? Answer these 14 questions and find out!"
-	},
-	{
-		"quiz_number": 2,
-   	   	"name": "How much do you know about Majas?",
-	   	"description": "Majas are a rare species. Test your knowledge of famous Majas!"
-	}
-]
+
 
 def start(request):
 	context = {
