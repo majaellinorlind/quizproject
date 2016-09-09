@@ -1,10 +1,10 @@
 from django.shortcuts import render
 
-
+from quiz.models import quiz
 
 def start(request):
 	context = {
-		"quizzes": quizzes,
+		"quizzes": Quiz.objects.all(),
 	}
 	return render(request, "quiz/start.html", context)
 
