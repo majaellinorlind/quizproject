@@ -243,8 +243,8 @@ p {
 	font-family: Quicksand, sans serif;
 	text-align: left;
 	color: black;
-	position: relative;
 	white-space: normal;
+	align-content: center;
 }
 .btn.btn-primary.btn-lg.question.one:hover {
 	background-color: #3DD1B6;
@@ -260,8 +260,8 @@ p {
 	font-family: Quicksand, sans serif;
 	text-align: left;
 	color: black;
-	position: relative;
 	white-space: normal;
+	align-content: center;
 }
 .btn.btn-primary.btn-lg.question.two:hover {
 	background-color: #3DD1B6;
