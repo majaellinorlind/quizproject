@@ -22,12 +22,16 @@
 				<div class="row question">
 					<div class="col-md-12 question">
 
-						<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post""><a href='{% url "results_page" quiz_number %}' class="btn btn-primary btn-lg question one" input type="btn" name="answer" value="1">{{ answer1 }}</a></form>
+						<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post""> {% csrf_token %}
+
+						<button class="btn btn-primary btn-lg question one" input type="btn" name="answer" value="1">{{ answer1 }}</button>
 
 					</div>
 					<div class="col-md-12 question">
 
-						<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post"">{% csrf_token %}<a href='{% url "results_page" quiz_number %}' class="btn btn-primary btn-lg question two" input type="btn" name="answer" value="2">{{ answer2 }}</a></form>
+						<button class="btn btn-primary btn-lg question two" input type="btn" name="answer" value="2">{{ answer2 }}</button>
+
+						</form>
 
 					</div>
 				</div>
