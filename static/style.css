@@ -207,6 +207,7 @@ p {
 	font-size: 130%;
 	text-align: center;
 	color: black;
+	white-space: normal;
 }
 
 .btn.btn-primary.btn-lg.start:hover {
@@ -225,6 +226,7 @@ p {
 	font-size: 130%;
 	text-align: center;
 	color: black;
+	white-space: normal;
 }
 
 .btn.btn-primary.btn-lg.quiz:hover {
@@ -242,6 +244,7 @@ p {
 	text-align: left;
 	color: black;
 	position: relative;
+	white-space: normal;
 }
 .btn.btn-primary.btn-lg.question.one:hover {
 	background-color: #3DD1B6;
@@ -258,6 +261,7 @@ p {
 	text-align: left;
 	color: black;
 	position: relative;
+	white-space: normal;
 }
 .btn.btn-primary.btn-lg.question.two:hover {
 	background-color: #3DD1B6;
@@ -275,6 +279,7 @@ p {
 	color: black;
 	font-size: 95%;
 	text-align: center;
+	white-space: normal;
 }
 
 .btn.btn-primary.btn-lg.results:hover {
