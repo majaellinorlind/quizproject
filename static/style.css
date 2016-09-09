@@ -350,6 +350,27 @@ p {
   color: #FFA27A;
 }
 
+.share-btn.result {
+	display: inline-block;
+	color: black;
+	margin-top: 0.1em;
+	margin-right: 0.4em;
+	margin-left: 0.4em;
+	margin-bottom: 15em;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	width: 2em;
+	align-content: center;
+}
+
+.share-btn.result:hover {
+  color: #E30B86;
+}
+
+.share-btn.result:visited {
+  top: 2px;
+  color: #FFA27A;
+}
+
 .mailto.result {
 	color: #3DD1B6;
 }
