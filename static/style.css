@@ -139,9 +139,10 @@ p {
 }
 
 .h.question {
+	font-family: "Bungee outline", cursive;
 	font-size: 50px;
 	color: black;
-	margin: 30px 0px 0px 0px;
+	margin: 30px 0px 5px 0px;
 }
 
 .h.result {
